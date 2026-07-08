@@ -7,7 +7,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: ${{ github.repository }}/quicknotes
+  IMAGE_NAME: ruskudinov/devops-intro/quicknotes
 
 jobs:
   build-and-push:
